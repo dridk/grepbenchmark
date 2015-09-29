@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <chrono>
 #include "color.h"
 using namespace std;
 class AbstractMatch
@@ -19,7 +20,9 @@ public:
 
     // test unit
 
-    void test();
+    void test(const string& query, bool verbose = false);
+
+
 
 
 
