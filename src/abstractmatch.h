@@ -3,12 +3,13 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include "color.h"
 using namespace std;
-class AbstractGrep
+class AbstractMatch
 {
 public:
-	AbstractGrep();
-	~AbstractGrep();
+    AbstractMatch();
+    ~AbstractMatch();
 	
     void setSource(const string& source);
     const string &source() const;

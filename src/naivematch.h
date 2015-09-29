@@ -1,12 +1,12 @@
 #ifndef NAIVEGREP_H
 #define NAIVEGREP_H
-#include "abstractgrep.h"
+#include "abstractmatch.h"
 
-class NaiveGrep : public AbstractGrep
+class NaiveMatch : public AbstractMatch
 {
 public:
-    NaiveGrep();
-    ~NaiveGrep();
+    NaiveMatch();
+    ~NaiveMatch();
 
     virtual vector<int> findQuery(const string &query);
 

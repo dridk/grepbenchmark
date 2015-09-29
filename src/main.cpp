@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
-#include "naivegrep.h"
+#include "naivematch.h"
+#include "color.h"
 using namespace std;
 int main(int argc, char **argv)
 {
 	
-    NaiveGrep grep;
+    NaiveMatch grep;
 
     grep.setSource("salutchatchatsacha");
 

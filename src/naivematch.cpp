@@ -1,16 +1,16 @@
-#include "naivegrep.h"
+#include "naivematch.h"
 
-NaiveGrep::NaiveGrep()
+NaiveMatch::NaiveMatch()
 {
 
 }
 
-NaiveGrep::~NaiveGrep()
+NaiveMatch::~NaiveMatch()
 {
 
 }
 
-vector<int> NaiveGrep::findQuery(const string &query)
+vector<int> NaiveMatch::findQuery(const string &query)
 {
     vector<int> positions;
 
